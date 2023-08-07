@@ -1,4 +1,4 @@
-
+import  print  from "./external.js";
 /*
     Task 1:
     - Link the file `external.js` to this file.
