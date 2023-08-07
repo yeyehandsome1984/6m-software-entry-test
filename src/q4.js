@@ -20,6 +20,22 @@ class Parent{
     }
 }
 
+class Child extends Parent {
+
+    constructor() {
+
+        super();
+
+    }
+
+    addNewAbility(newAbility) {
+
+        abilities.push(newAbility);
+
+    }
+
+}
+
 const p = new Parent();
 p.showAbilities(); // Observe that this function prints "Parenting" and "Role modeling".
 
